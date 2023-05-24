@@ -1,0 +1,10 @@
+.profile__title-cover {
+  display: flex;
+  justify-content: flex-start;
+}
+
+@media screen and (max-width: 767px) {
+  .profile__title-cover {
+    justify-content: center;
+  }
+}

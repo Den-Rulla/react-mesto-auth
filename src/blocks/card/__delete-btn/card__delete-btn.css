@@ -1,0 +1,17 @@
+.card__delete-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: 18px;
+  height: 19px;
+  background: url(../../../images/delete-btn.svg) no-repeat center / cover;
+  transition: .2s;
+}
+
+.card__delete-btn:hover {
+  opacity: .6;
+  cursor: pointer;
+}
