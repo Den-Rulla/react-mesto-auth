@@ -3,6 +3,9 @@
 @import url(./blocks/root/root.css);
 @import url(./blocks/page/page.css);
 @import url(./blocks/header/header.css);
+@import url(./blocks/header/__email/header__email.css);
+@import url(./blocks/header/__link/header__link.css);
+@import url(./blocks/header/__links/header__links.css);
 @import url(./blocks/header/__logo/header__logo.css);
 @import url(./blocks/profile/profile.css);
 @import url(./blocks/profile/__avatar/profile__avatar.css);
@@ -27,7 +30,9 @@
 @import url(./blocks/popup/popup.css);
 @import url(./blocks/popup/_opened/popup_opened.css);
 @import url(./blocks/popup/__container/popup__container.css);
+@import url(./blocks/popup/__container/_type/popup__container_type_tooltip.css);
 @import url(./blocks/popup/__title/popup__title.css);
+@import url(./blocks/popup/__title/_type/popup__title_type_tooltip.css);
 @import url(./blocks/popup/__input/popup__input.css);
 @import url(./blocks/popup/__input/_type/popup__input_type_error.css);
 @import url(./blocks/popup/__error/popup__error.css);
@@ -42,3 +47,11 @@
 @import url(./blocks/popup/__caption/popup__caption.css);
 @import url(./blocks/profile/__avatar-edit-btn/profile__avatar-edit-btn.css);
 @import url(./blocks/profile/__avatar-image/profile__avatar-image.css);
+@import url(./blocks/auth/auth.css);
+@import url(./blocks/auth/__button/auth__button.css);
+@import url(./blocks/auth/__container/auth__container.css);
+@import url(./blocks/auth/__input/auth__input.css);
+@import url(./blocks/auth/__link/auth__link.css);
+@import url(./blocks/auth/__title/auth__title.css);
+@import url(./blocks/auth/__text-container/auth__text-container.css);
+@import url(./blocks/auth/__text/auth__text.css);

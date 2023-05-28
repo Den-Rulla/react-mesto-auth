@@ -1,0 +1,8 @@
+.auth__text-container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
